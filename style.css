@@ -1,0 +1,153 @@
+
+@media (max-width:600px) {  .card{min-width: 100% !important;}
+  .parent2{flex-direction: column;
+  max-width: 100%;
+  font-size: smaller;
+  }
+}
+*{box-sizing: border-box;}
+nav{background-color: #1E202B !important;
+}
+.navbar-brand {
+    padding-top: var(--bs-navbar-brand-padding-y);
+    padding-bottom: var(--bs-navbar-brand-padding-y);
+    margin-right: var(--bs-navbar-brand-margin-end);
+    font-size: var(--bs-navbar-brand-font-size);
+    color: white;
+    text-decoration: none;
+    white-space: nowrap;}
+    .nav-link {
+        display: block;
+        padding: var(--bs-nav-link-padding-y) var(--bs-nav-link-padding-x);
+        font-size: var(--bs-nav-link-font-size);
+        font-weight: var(--bs-nav-link-font-weight);
+        color: white;
+        text-decoration: none;
+        background: 0 0;
+        border-color:#009AD8 !important;
+        border-width: 1px !important;
+        
+    transition: .4s !important;}
+        .navbar-nav .nav-link.active, .navbar-nav .nav-link.show {
+            color: white;
+            
+        }
+        .border{
+            border-color: transparent !important;
+            
+        }
+        .nav-link:hover{color: #009AD8 !important;      
+        }
+        .nav-link:hover.border{border-color: #009AD8 !important;}
+        .active{
+            border-color:#009AD8 !important;
+            color: #009AD8 !important;
+        }
+        
+        .parent{
+        background-image: url(./banner.png);
+        background-repeat: no-repeat;
+        background-color: #1E202B;
+        } 
+         /* Parent form container */
+.search-bar {
+    position: relative; /* Allows button to be positioned inside */
+  }
+  input{background-color: #1E202B;
+  border: none;
+  outline: none;
+  color: white;
+  }
+  
+  
+  
+  /* Button styling */
+  #fbutton {
+    position: absolute;
+    top: 50%;               
+    right: 13%; 
+    transform: translateY(-50%); 
+    background-color: #00aaff;
+    color: white;
+    border: none;
+    font-size: 1rem;
+    font-weight: bold;
+    transition: .3s;
+  }
+  
+  #fbutton:hover {
+    background-color: #0088cc; 
+    
+  }
+
+  
+  .card1{background-color: #323544;}
+  .card1.card-header{background-color: #2D303D;
+}
+  
+.card2{background-color: #262936;}
+  .card2.card-header{background-color: #222530;
+}
+.card3{background-color: #2D303D;}
+  .card3.card-header{background-color: #323544;
+}
+  .card-text {
+  }
+
+  .card:nth-child(even){
+    background-color: #262936;
+  }
+h1{font-size: 50px;}
+.parent2{background-color: #262936;
+}
+#subb{position: relative;
+}
+#subbutton{background-color: #00aaff;
+position: absolute;
+right: 1%;
+top: 38%;
+transform: translateY(-50%);
+color: white;
+}
+.icons i{color: #00aaff;
+background-color: #1E202B;
+border: 2px solid #262936;
+height: 50px;
+width: 50px;
+border-radius: 50%;
+display: flex;
+justify-content: center;
+align-items: center;
+transition: .4s;
+}
+.icons i:hover{color: white;
+background-color: #00aaff;
+}
+ul{list-style:  none;}
+.c-parent1{background-color: #1E202B;}
+.con1{background-color: #262936;
+
+}
+a{text-decoration: none;}
+.sub1{height: 400px ;
+width: 400px ;
+background-color: #262936;
+color: white;
+}
+.sub1 span{font-size: 10px;}
+.sub2 input{border: 1px gray solid;
+width: 49%;
+color: white;
+}
+textarea{background-color: #1E202B;
+  border: 1px gray solid;
+  color: white;
+  outline: none;
+}
+#textareabutton{background-color: #00aaff;
+bottom: -35px;
+right: 0;
+}
+.sub2 input:hover,textarea:hover{border-color: #00aaff;}
+.sub2 input:focus,textarea:focus{border-color: #00aaff;}
+#contact{display: none;}

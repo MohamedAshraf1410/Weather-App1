@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather App</title>
+  <link rel="stylesheet" href="./bootstrap.min.css">
+  <link rel="stylesheet" href="./style.css">
+  <script src="https://kit.fontawesome.com/9fe43e3d61.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg text-white  ">
+    <div class="container-fluid p-4  ">
+      <div class="logo"><a class="navbar-brand ms-5" href="#"><img class="w-25" src="./logo@2x.png" alt=""> Weather</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown"
+          aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      </div>
+
+      <div class="collapse navbar-collapse me-5 " id="navbarNavDropdown">
+        <ul class="navbar-nav ms-auto ">
+          <li class="nav-item me-3">
+            <a id="homebutton" class="nav-link active border px-5 py-1   rounded-pill" aria-current="page" href="#home">Home</a>
+          </li>
+          <li class="nav-item me-3">
+            <a class="nav-link border px-5 py-1 rounded-pill" href="#">News</a>
+          </li>
+          <li class="nav-item me-3">
+            <a class="nav-link border px-5 py-1 rounded-pill" href="#">Live Cameras</a>
+          </li>
+          <li class="nav-item me-3">
+            <a class="nav-link border px-5 py-1 rounded-pill" href="#">Photos</a>
+          </li>
+          <li class="nav-item me-3">
+            <a id="contactbutton" class="nav-link border px-5 py-1 rounded-pill" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <div id="home"><div class=" parent ">
+        <form class="search-bar py-5 text-center"><label for="search"></label>
+            <input  class=" w-75  rounded-pill p-3" id="search" type="text" placeholder="Find Your Location...">
+            <button type="button" id="fbutton" class="btn text-white rounded-pill px-5 ">Find</button>
+            </form>
+            <div class="card-group  py-5 mx-2 ">
+              <div class="container"><div class="row" id="demo">
+              </div></div>
+                
+              </div>
+      </div>
+
+<div class="parent2 py-5 text-center d-flex justify-content-evenly align-items-center">
+  <form id="subb" class="" ><label id="sub" for=""></label>
+    <input class="w-100 rounded-pill py-2" type="text">
+    <button id="subbutton" class="btn rounded-pill p-1" >Subscribe</button>
+    <p class="text-white-50 mt-3 w-100 ">Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+    </form>
+<div class="icons"><ul class="d-flex"><li><i class="fa-brands fa-facebook fa-lg"></i></li>
+                        <li><i class="fa-brands fa-twitter fa-lg"></i></li>
+                        <li><i class="fa-brands fa-google-plus-g fa-lg"></i></li>
+                        <li><i class="fa-brands fa-pinterest fa-lg"></i></li>
+  </ul></div>
+</div></div>
+
+
+
+  <div id="contact">
+    <div class="c-parent1 p-5">
+      <div class="con1 rounded-pill p-3"><a id="chomebutton" class="text-white-50" href="">home </a><a class="text-white" href=""> =>
+          contact</a></div>
+      <div class="subparent1 mt-5">
+        <div class="container">
+          <div class="row  d-flex justify-content-center align align-items-center">
+            <div class="sub1 rounded-4 col-md-6 p-2 m-5 d-flex flex-wrap align-items-end   ">
+              <span class="mt-5 pt-5"> <i class="fa-solid fa-location-dot mt-5 pt-5"></i> Company Name INC.
+                2803 Avenue Street, Los Angeles</span>
+              <span class="w-50 mb-2"><i class="fa-solid fa-phone"></i> +1 800 314 235</span>
+              <span class="w-50 mb-2"><i class="fa-solid fa-envelope"></i> contact@companyname.com</span>
+            </div>
+            <div class="sub2 col-md-6  ">
+              <h1 class="text-white">Contact us</h1>
+              <p class="text-white-50">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Commodi consectetur inventore ducimus, facilis,
+                numquam id soluta omnis eius recusandae nesciunt vero repellat harum cum. Nisi facilis odit hic, ipsum
+                sed!</p>
+                <form class=" position-relative"><input class=" rounded-pill mb-2 py-3" type="text" placeholder="Your Name...">
+                  <input class=" rounded-pill mb-2 py-3" type="text" placeholder="Email Address...">
+                  <input class=" rounded-pill mb-2 py-3" type="text" placeholder="Company Name...">
+                  <input class=" rounded-pill mb-2 py-3" type="text" placeholder="Website...">
+                  <textarea class="w-100 rounded-5 " rows="10" name="" id=""></textarea>
+                  <button type="Submit" id="textareabutton" class="btn text-white rounded-pill px-3  position-absolute ">Submit</button></form>
+                
+                        </div>
+          </div>
+        </div>
+      </div>
+  
+      
+    </div>
+    <div class="parent2 py-5 text-center d-flex justify-content-evenly align-items-center">
+      <form id="subb" class="" ><label id="sub" for=""></label>
+        <input class="w-100 rounded-pill py-2" type="text">
+        <button id="subbutton" class="btn rounded-pill p-2" >Subscribe</button>
+        <p class="text-white-50 mt-3 w-100 ">Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+        </form>
+    <div class="icons"><ul class="d-flex"><li><i class="fa-brands fa-facebook fa-lg"></i></li>
+                            <li><i class="fa-brands fa-twitter fa-lg"></i></li>
+                            <li><i class="fa-brands fa-google-plus-g fa-lg"></i></li>
+                            <li><i class="fa-brands fa-pinterest fa-lg"></i></li>
+      </ul></div>
+    </div>
+  </div>
+  
+
+
+
+
+
+  <script src="./bootstrap.bundle.min.js"></script>
+  <script src="./main.js"></script>
+
+</body>
+
+</html>
